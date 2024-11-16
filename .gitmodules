@@ -1,0 +1,6 @@
+[submodule "submodules/fastapi-sentiment-analyzer-server"]
+	path = submodules/fastapi-sentiment-analyzer-server
+	url = git@github.com:jinhopark8345/fastapi-sentiment-analyzer-server
+[submodule "submodules/svelte-sentiment-analyzer-ui"]
+	path = submodules/svelte-sentiment-analyzer-ui
+	url = git@github.com:jinhopark8345/svelte-sentiment-analyzer-ui
