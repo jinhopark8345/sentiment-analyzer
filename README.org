@@ -1,15 +1,23 @@
-
-* make two repositories, need to version control
-   1. basic sentiment-analyzer-fastAPI-sqlite & frontend-svelte-app (hash1 & hash2)
-   2. upgrade something -> new hash
-   3.
-
-* docker-compose them?
-* dockerize both apps?
-* add inference server (triton, bento?, others)
-* connect other services
-* MLOps? CI/CD, MLops, auto deployments,
-* put them on a kubernetes
-* how to do stress test of the app? how many users can we support together?
-* study svelte, make it more pretty
-* think of other functionalities /
+* Test Environment
+Intel i7-8700K, RTX 3090 (24G), RAM 64G
+* About this project
+* Frontend
+Technology : Svelte
+URL : https://github.com/jinhopark8345/svelte-sentiment-analyzer-ui
+* Backend
+Technology : FastAPI
+URL : https://github.com/jinhopark8345/fastapi-sentiment-analyzer-server
+* Inference server (coming)
+* Todo list
+- make two repositories, need to version control
+  - basic sentiment-analyzer-fastAPI-sqlite & frontend-svelte-app (hash1 & hash2)
+  - upgrade something -> new hash
+- docker-compose them?
+- dockerize both apps?
+- add inference server (triton, bento?, others)
+- connect other services
+- MLOps? CI/CD, MLops, auto deployments,
+- put them on a kubernetes
+- how to do stress test of the app? how many users can we support together?
+- study svelte, make it more pretty
+- think of other functionalities /
